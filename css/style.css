@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 215, 234);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(255, 195, 229);
+    width: 90%;
+    max-width: 650px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgb(0, 0, 0.15);
+}
+
+h1{
+    text-align: center;
+    color: #ff4da0;
+    margin-bottom: 5px;
+}
+
+.subtitulo{
+    text-align: center;
+    color: #8d0052;
+    margin-bottom: 25px;
+}
+
+#formulario label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(255, 124, 203);
+
+}
+
+input, select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus, select:focus{
+    outline: none;
+    border: 1px rgb(255, 0, 119) solid;
+}
+
+input:valid, select:valid{
+    outline: none;
+    border: 1px rgb(23, 152, 12) solid;
+}
+
+.notas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ec1186;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #af0060;
+}
+
+.resultado{
+    margin-top: 25px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.aprovado{
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.recuperacao{
+    color: rgb(255, 238, 1);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.reprovado{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#link {
+    display: block;
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-top: 5px;
+
+    border-radius: 9px;
+
+    background: #3498db;
+
+    color: white;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    box-shadow:
+        0 4px 10px rgba(52, 152, 219, 0.25);
+
+    transition: 0.2s;}
+
+    #link:hover{
+        background-color: #3498db;
+    }
