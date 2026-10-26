@@ -74,7 +74,7 @@ button{
     border: none;
     border-radius: 8px;
     background: #ec1186;
-    color: white;
+    color: yellow;
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
@@ -82,7 +82,7 @@ button{
 }
 
 button:hover{
-    background-color: #af0060;
+    background-color: pink;
 }
 
 .resultado{
